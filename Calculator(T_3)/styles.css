@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-
 * {
     margin: auto;
     padding: 0%;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-
 body {
     width: 100;
     height: auto;
@@ -46,7 +44,6 @@ input::placeholder{
         grid-template-rows: auto 1fr; /* Space for title/input and buttons */
         gap: 20px;
     }
-    
     .button-grid {
         display: grid;
         grid-template-columns: repeat(4, 120px); /* 4 columns for buttons */
@@ -54,7 +51,6 @@ input::placeholder{
         justify-content: center;
         align-items: center;
     }
-    
     input {
         width: 100%;
         border: none;
@@ -67,11 +63,9 @@ input::placeholder{
         cursor: #ffffff;
         color: #ffffff;
     }
-    
     input::placeholder {
         color: #ffffff;
     }
-    
     button {
         border: none;
         width: 100%;
@@ -83,20 +77,16 @@ input::placeholder{
         box-shadow: -8px -8px 15px rgba(253, 252, 252, 0.2);
         cursor: pointer;
     }
-    
     .btn {
         background-color: rgb(207, 90, 48);
     }
-    
     .title {
         color: #ffffff;
         text-align: center;
     }
-    
     .operator {
         color: rgb(69, 146, 86);
     }
-    
 }
 button{
     border: none;
