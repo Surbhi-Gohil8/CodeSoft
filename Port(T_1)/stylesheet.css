@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000033;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    height: 80px;
+    background-color: #12123E;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #9999E2;
+}
+
+.left {
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+/* First Section */
+.firstSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px;
+}
+
+.leftSection {
+    max-width: 50%;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.leftSection .buttons {
+    margin-top: 40px;
+}
+
+.leftSection .btn {
+    padding: 12px 25px;
+    background: #1E2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 18px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+.leftSection .btn:hover {
+    background: white;
+    color: #1E2167;
+    border-color: #1E2167;
+}
+
+.rightSection img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.purple {
+    color: #AA6BE4;
+}
+
+#element {
+    color: #AA6BE4;
+}
+
+/* Second Section (Experience) */
+.secondSection {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.secondSection h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.secondSection .box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 50px;
+}
+
+.secondSection .vertical {
+    background-color: #1E2167;
+    padding: 20px;
+    border-radius: 10px;
+    width: 280px;
+    text-align: left;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.secondSection .image-top {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.vertical-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.vertical-dsc {
+    font-size: 0.9rem;
+    color: #B0B0B0;
+}
+
+.main hr {
+    border: none;
+    height: 1.2px;
+    background-color: #9C97F1;
+    margin: 40px 0;
+}
+
+/* Third Section (Skills) */
+.ThirdSection {
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.ThirdSection h1 {
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.ThirdSection #leftbox, .ThirdSection #rightbox {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.container {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.skills {
+    padding: 10px;
+    color: white;
+    text-align: right;
+    border-radius: 10px;
+}
+
+.html {width: 90%; background-color: rgba(61, 105, 151, 0.8);} 
+.css {width: 80%; background-color: rgba(61, 105, 151, 0.7);} 
+.js {width: 65%; background-color: rgba(61, 105, 151, 0.6);} 
+.Java {width: 90%; background-color: rgba(61, 105, 151, 0.8);} 
+.Python {width: 90%; background-color: rgba(61, 105, 151, 0.8);} 
+.React {width: 90%; background-color: rgba(61, 105, 151, 0.8);} 
+.Nodejs {width: 95%; background-color: rgba(61, 105, 151, 0.8);} 
+.php {width: 60%; background-color: rgba(61, 105, 151, 0.5);} 
+
+/* Fourth Section (Projects) */
+.FourthSection {
+    padding: 60px 50px;
+    background-color: #12123E;
+    color: white;
+}
+
+.FourthSection .pro {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.FourthSection .dis {
+    font-size: 1rem;
+    color: #B0B0B0;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.FourthSection img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Footer */
+footer {
+    background-color: #0E0E1A;
+    padding: 40px;
+    text-align: center;
+    color: #B0B0B0;
+}
+
+footer h3 {
+    color: white;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.footer-rights {
+    font-size: 0.9rem;
+    margin-top: 20px;
+    color: #888;
+}
